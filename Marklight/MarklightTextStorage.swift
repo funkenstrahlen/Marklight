@@ -123,6 +123,7 @@ open class MarklightTextStorage: NSTextStorage, MarklightStyleApplier {
         imp.removeAttribute(NSAttributedString.Key.foregroundColor, range: range)
         imp.addAttribute(NSAttributedString.Key.font, value: MarklightFont.systemFont(ofSize: textSize), range: range)
         imp.addAttribute(NSAttributedString.Key.paragraphStyle, value: NSParagraphStyle(), range: range)
+        imp.addAttribute(.foregroundColor, value: Marklight.defaultFontColor, range: range)
     }
 
 

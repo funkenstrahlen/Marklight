@@ -151,6 +151,11 @@ public struct Marklight {
     public static var syntaxColor = MarklightColor.lightGray
     
     /**
+     Default font color when no style is applied.
+     */
+    public static var defaultFontColor = MarklightColor.darkText
+    
+    /**
      Font used for blocks and inline code. Default value is *Menlo*.
      */
     public static var codeFontName = "Menlo"
